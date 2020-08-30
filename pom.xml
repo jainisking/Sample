@@ -5,6 +5,11 @@
   <artifactId>MyTestingApp</artifactId>
   <name>MyTestingApp</name>
   <description>MyTestingApp</description>
+  <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.5.RELEASE</version>
+	</parent>
   <properties>
     <findbugs-maven-plugin.version>3.0.5</findbugs-maven-plugin.version>
     <physical.inventory.logistics.version>1.0.0.PRD</physical.inventory.logistics.version>
