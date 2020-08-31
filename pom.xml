@@ -529,10 +529,6 @@
       <artifactId>spring-boot-starter-json</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-openfeign</artifactId>
-    </dependency>
-    <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>swagger-ui</artifactId>
       <version>3.24.3</version>
@@ -580,10 +576,6 @@
       <groupId>org.springframework.kafka</groupId>
       <artifactId>spring-kafka</artifactId>
       <version>${spring-kafka.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -4961,18 +4953,6 @@
       <version>2.11</version>
     </dependency>
     <dependency>
-      <groupId>com.j2html</groupId>
-      <artifactId>j2html</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.owasp.esapi</groupId>
-      <artifactId>esapi</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.github.seancfoley</groupId>
-      <artifactId>ipaddress</artifactId>
-    </dependency>
-    <dependency>
       <groupId>org.activiti</groupId>
       <artifactId>activiti5-spring</artifactId>
       <version>${activiti.version}</version>
@@ -6690,14 +6670,6 @@
       <artifactId>logback-classic</artifactId>
       <scope>runtime</scope>
       <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.jmock</groupId>
-      <artifactId>jmock-junit4</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jmock</groupId>
-      <artifactId>jmock-legacy</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.nifi</groupId>
